@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+    <head>
+      <link href="portafolio.css" rel="stylesheet" type='text/css'>
+      <meta charset="UTF-8" />
+      <meta name='viewport'content='width=device-width initial-scale=1.0'>
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+      <title>Galbert O'Neil</title>
+    </head>
+
+    <body>
+
+      <header>
+        <div className='logo-name-div'>
+          <h1 className='logo-name'>Galbert O'Neil</h1>
+        </div>
+          <div className='nav-links'>
+            <label for="toggle">&#9776;</label>
+            <input  type='checkbox' id='toggle'/>
+            <nav id='links-nav'>
+              <a className='navItem' href='#about'>About</a>&nbsp;
+              <a className='navItem' href='#projects'>Projects</a>&nbsp;
+              <a className='navItem' href='#contact'>Contact</a>&nbsp;
+            </nav>
+          </div>
+      </header>
+
+
+      <main>
+
+        <div id='about'>
+          <div id='about-photo'>
+            <img id='headshot' src='images/headshot2.jpg' alt='headshot' />
+            
+          </div>
+
+          <div className='bio'>
+            <h2>ABOUT</h2>
+            
+            <p id='bio-parag'>I am a Web Developer with a background in marketing, sales and music production. 
+              I would love to bring that experience to the workplace and share it with my colleagues. 
+              My ideas are driven by the need to create elegant and effective solutions through my web design work.</p>
+            
+            <hr>
+
+            <h2 id='skillsHeader'>SKILLS</h2>
+              <div id='skillsLogo'>
+                <img id='skills' src='images/css.png'> 
+                <img id='skills' src='images/htmllogo.jpg'>
+                <img id='skills' src='images/reactlogo.png'>
+                <img id='skills' src='images/jslogo.png'>
+                <img id='skills' src='images/rubylogo.png'>
+                <img id='skills' src='images/githublogo.png'>
+              </div>
+            
+          </div>
+        </div >
+        
+        <hr>
+
+      <div id='projects'>
+        <div>
+          <h2>PROJECTS</h2>
+        </div>
+          <div id='projectPicLinks'>
+            <a href='https://recordbag-app.herokuapp.com/Main' target='_blank'><img id='project1' src='images/recordbagmain.png' alt='project1'></a>
+            <!-- <p id='textProject1'>Record Bag: A React app build with (FlexBox and Grid)</p> -->
+              
+              <a href='http://infamous-trick.surge.sh' target='_blank'><img id='project4' src='images/streetstagram.png' alt='project4'></a>
+              <a href='https://mari-vanna.surge.sh/' target='_blank'><img id='project3' src='images/marivanna2.png' alt='project3'></a>
+              <a href='http://beatsource.surge.sh/' target='_blank'><img id='project2' src='images/beatsourcemain.png' alt='project2'></a>
+              <!-- <p id='textProject2'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, at?            </p> -->
+            </div>
+      </div>
+      <hr>
+      <div id='contact'>
+        <h2 id='contactHeader'>CONTACT</h2>
+        <form id='contactForm'>
+          <input name='name' placeholder="name" type='text'>
+          <input name='email' placeholder="email" type='text'>
+          <input id='contactMessage'name='message' type='text'>
+          <button id='submitButtom'type='submit' value='submit'>Submit</button>
+        </form>
+      </div>
+
+
+
+
+
+      </main>
+
+      <footer>
+        <p id='footerParag'>Created & design by Galbert O'Neil</p>
+        <div className='logo-linkedin'>
+         <a href='https://www.linkedin.com/in/galbertoneil/' target='_blank'><img id='logo-linkedin-footer' src='./images/linkedinlogo.png' alt='linkedin'></a>
+         <a href='https://github.com/' target='_blank'><img id='logo-github-footer' src='images/githubwhite.png' alt='github'></a>
+      </div>
+      </footer>
+    </body>
+</html>
